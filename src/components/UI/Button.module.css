@@ -1,0 +1,13 @@
+.button {
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: none;
+}
+
+.button:hover,
+.button:active {
+  cursor: pointer;
+  outline: solid 1px darkblue;
+}

@@ -1,0 +1,69 @@
+.new-task {
+  position: relative;
+  width: 90%;
+  max-width: 50rem;
+  margin-top: 4rem;
+}
+
+.form {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  font-size: 1.5rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#close-window {
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: center;
+  border: solid 1px black;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+  width: 1.25rem;
+  margin: 1rem;
+  font-weight: bold;
+}
+
+#close-window:hover,
+#close-window:active {
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.form h1 {
+  text-align: center;
+  margin: 1rem;
+}
+
+.action {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.form label {
+  font-weight: bold;
+}
+
+.form input {
+  font-size: 1rem;
+  width: 100%;
+  max-width: 20rem;
+  height: 2rem;
+  margin: 1rem;
+}
+
+.form .button {
+  width: 20rem;
+}
+
+@media (max-width: 450px) {
+  .form input {
+    margin: 1rem 0;
+  }
+}

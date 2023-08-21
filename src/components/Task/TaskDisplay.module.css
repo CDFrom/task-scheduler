@@ -1,0 +1,27 @@
+.task {
+  justify-content: space-between;
+  padding-left: 2rem;
+  background-color: white;
+  width: 100%;
+  margin: 0.5rem auto;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  overflow: auto;
+}
+
+.list {
+  width: 90%;
+  max-width: 50rem;
+  margin: 2rem auto;
+  flex-direction: column;
+}
+
+.list h1 {
+  margin: 1rem;
+}
+
+@media (min-width: 768px) {
+  .task {
+    width: 70%;
+  }
+}
